@@ -8,9 +8,18 @@
 
     "runArgs": ["--name", "algs4_devcontainer"],
 
+    "settings": {
+        "terminal.integrated.profiles.linux": {
+            "zsh": {
+              "path": "zsh",
+              "args": ["-l"]
+            }
+        },
+        "terminal.integrated.defaultProfile.linux": "zsh"
+    },
+
     // Add the IDs of extensions you want installed when the container is created.
-    "extensions": [
-    ]
+    "extensions": ["vscjava.vscode-java-pack"],
 
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
     // "forwardPorts": [],
@@ -19,5 +28,5 @@
     // "postCreateCommand": "pnpm install",
 
     // Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-    // "remoteUser": "mirone"
+    "remoteUser": "worker"
 }

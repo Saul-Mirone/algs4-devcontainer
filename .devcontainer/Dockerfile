@@ -32,9 +32,13 @@ RUN echo "#! /bin/bash\njava -jar /usr/local/algs4/google-java-format-1.3-all-de
 RUN chmod 755 java-format
 RUN mv java-format /usr/local/bin
 
+RUN $Sudo apt-get update
+RUN $Sudo apt-get -y install git curl zsh locales
+
 RUN groupadd --system --gid 1000 worker \
 	&& useradd --system --gid worker --uid 1000 --shell /bin/bash --create-home worker
+
 USER worker
 WORKDIR /home/worker
 
-RUN bash
+RUN sh -c "$(curl https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"  --unattended
