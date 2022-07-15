@@ -4,9 +4,9 @@
 
 # Requirements
 
-[Docker](https://www.docker.com/products/docker-desktop/)
-[VS Code](https://code.visualstudio.com/)
-[Remote Container Extension for VSC](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+- [Docker](https://www.docker.com/products/docker-desktop/)
+- [VS Code](https://code.visualstudio.com/)
+- [Remote Container Extension for VSC](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
 # Usage
 
