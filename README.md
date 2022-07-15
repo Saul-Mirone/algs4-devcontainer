@@ -14,6 +14,7 @@
 2. Clone the repo.
 3. Enter the local directory with your shell and type `.code`.
 4. Type `Cmd/Ctrl-Shift-P` and run `Remote-Containers: Open Folder in Container`.
+
    (Or you can also just click the `Reopen in Container` button in toast.)
 5. Enjoy learning!
 
