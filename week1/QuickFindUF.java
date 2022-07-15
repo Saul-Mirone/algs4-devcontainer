@@ -1,3 +1,5 @@
+package week1;
+
 public class QuickFindUF {
     private int[] id;
 

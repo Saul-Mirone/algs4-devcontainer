@@ -1,3 +1,5 @@
+package week1;
+
 class QuickUnionImproveUF {
     private int[] id;
     private int[] sz;
