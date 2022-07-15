@@ -6,6 +6,16 @@
 
 [Docker](https://www.docker.com/products/docker-desktop/)
 [VS Code](https://code.visualstudio.com/)
+[Remote Container Extension for VSC](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+
+# Usage
+
+1. [Create a repo from this template on Github.](https://github.com/Saul-Mirone/algs4-devcontainer/generate)
+2. Clone the repo.
+3. Enter the local directory with your shell and type `.code`.
+4. `Cmd/Ctrl-Shift-P` and run `Remote-Containers: Open Folder in Container`.
+5. Enjoy learning!
+
 
 # License
 
