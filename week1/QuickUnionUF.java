@@ -1,5 +1,3 @@
-package week1;
-
 public class QuickUnionUF {
     private int[] id;
 

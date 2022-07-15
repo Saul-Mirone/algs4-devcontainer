@@ -1,5 +1,3 @@
-package week1;
-
 public class ThreeSum {
     public static int count(int[] a) {
         int N = a.length;
